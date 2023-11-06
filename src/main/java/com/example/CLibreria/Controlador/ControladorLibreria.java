@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 
-@RestController
-@RequestMapping("/catalogo")
+@RestController //anotación que indica que la clase se trata de un controlador
+@RequestMapping("/catalogo") //
 public class ControladorLibreria {
     
     @Autowired
